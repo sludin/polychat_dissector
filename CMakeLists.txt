@@ -1,10 +1,10 @@
 # CMakeLists.txt
 #
-# Wireshark - Network traffic analyzer
-# By Gerald Combs <gerald@wireshark.org>
-# Copyright 1998 Gerald Combs
+# Polychat Dissector
+# By Stephen Ludin <sludin@ludin.org>
+# Copyright 2025 Stephen Ludin
 #
-# SPDX-License-Identifier: GPL-2.0-or-later
+# SPDX-License-Identifier: MIT
 #
 
 include(WiresharkPlugin)
@@ -49,16 +49,3 @@ CHECKAPI(
 	  ${DISSECTOR_SRC}
 	  ${DISSECTOR_HEADERS}
 )
-
-#
-# Editor modelines  -  https://www.wireshark.org/tools/modelines.html
-#
-# Local variables:
-# c-basic-offset: 8
-# tab-width: 8
-# indent-tabs-mode: t
-# End:
-#
-# vi: set shiftwidth=8 tabstop=8 noexpandtab:
-# :indentSize=8:tabSize=8:noTabs=false:
-#

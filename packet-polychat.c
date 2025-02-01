@@ -2,7 +2,7 @@
  * Routines for Polychat dissection
  * Copyright 2025, Stephen Ludin <sludin@ludin.org>
  *
- * License: MIT
+ * SPDX-License-Identifier: MIT
  */
 
 
