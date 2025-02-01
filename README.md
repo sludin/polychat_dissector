@@ -3,7 +3,7 @@ This discetor is intended to parse and display a simple chat protocol in Wiresha
 
 ## Note
 
-This dissector is setup to find packets on port 8000. Life is easiest if you use this port. This can be changed but using the 'Decode As' functionality.  Right click on the output and choose 'Decode As...'.  Then add a line for:
+This dissector is setup to find packets on port 8000. Life is easiest if you use this port. This can be changed by using the 'Decode As' functionality.  Right click on the output and choose 'Decode As...'.  Then add a line with:
 
 - Field: TCP port
 - Value: <YOUR PORT>
