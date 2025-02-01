@@ -29,5 +29,5 @@ cp ./binaries/4.4.3/mac/polychat.so /Applications/Wireshark.app/Contents/PlugIns
 
 And then start/restart wireshark.
 
-If someone builds bianries for other version / os I am happy to host them here.
+If someone builds binaries for other version / os I am happy to host them here.
 
