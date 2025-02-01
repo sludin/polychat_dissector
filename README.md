@@ -3,7 +3,13 @@ This discetor is intended to parse and display a simple chat protocol in Wiresha
 
 ## Note
 
-This dissector is setup to find packets on port 8000. Life is easiest if you use this port. This can be changed in the wireshark settings.
+This dissector is setup to find packets on port 8000. Life is easiest if you use this port. This can be changed but using the 'Decode As' functionality.  Right click on the output and choose 'Decode As...'.  Then add a line for:
+
+- Field: TCP port
+- Value: <YOUR PORT>
+- Type: use the default
+- Default: use the default
+- Current: PCHAT
 
 ## Get the Wireshark source code
 
@@ -30,4 +36,3 @@ cp ./binaries/4.4.3/mac/polychat.so /Applications/Wireshark.app/Contents/PlugIns
 And then start/restart wireshark.
 
 If someone builds binaries for other version / os I am happy to host them here.
-
