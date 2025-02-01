@@ -20,3 +20,12 @@ I compiled a .so on an Apple Silicon MAC M4 running 15.3/Sequoia fro Wireshark 4
 ```
 /Applications/Wireshark.app/Contents/PlugIns/wireshark/4-4/epan/
 ```
+
+So to copy the .so fro the root of this repo:
+
+```
+cp ./binaries/4.4.3/mac/polychat.so /Applications/Wireshark.app/Contents/PlugIns/wireshark/4-4/epan/
+```
+
+And then start/restart wireshark.
+
